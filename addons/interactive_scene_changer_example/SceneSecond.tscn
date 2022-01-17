@@ -1,0 +1,229 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/interactive_scene_changer_example/assets/Monkey.glb" type="PackedScene" id=1]
+[ext_resource path="res://addons/interactive_scene_changer_example/SceneChangeExample.gd" type="Script" id=2]
+
+[node name="SceneFirst" type="Spatial"]
+script = ExtResource( 2 )
+to_scene = "res://addons/interactive_scene_changer_example/SceneFirst.tscn"
+obj_path = NodePath("Monkey")
+obj_count = 100
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Button" type="Button" parent="CanvasLayer"]
+anchor_left = 0.05
+anchor_top = 0.47
+anchor_right = 0.95
+anchor_bottom = 0.53
+text = "Go to first scene"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.7633 )
+
+[node name="Monkey" parent="." instance=ExtResource( 1 )]
+
+[node name="Duplicated" type="Spatial" parent="."]
+
+[node name="Monkey" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey2" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey3" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey4" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey5" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey6" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey7" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey8" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey9" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey10" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey11" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey12" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey13" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey14" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey15" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey16" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey17" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey18" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey19" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey20" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey21" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey22" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey23" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey24" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey25" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey26" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey27" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey28" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey29" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey30" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey31" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey32" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey33" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey34" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey35" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey36" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey37" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey38" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey39" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey40" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey41" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey42" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey43" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey44" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey45" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey46" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey47" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey48" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey49" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey50" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey51" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey52" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey53" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey54" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey55" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey56" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey57" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey58" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey59" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey60" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey61" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey62" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey63" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey64" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey65" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey66" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey67" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey68" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey69" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey70" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey71" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey72" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey73" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey74" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey75" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey76" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey77" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey78" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey79" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey80" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey81" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey82" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey83" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey84" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey85" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey86" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey87" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey88" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey89" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey90" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey91" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey92" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey93" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey94" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey95" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey96" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey97" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey98" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey99" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Monkey100" parent="Duplicated" instance=ExtResource( 1 )]

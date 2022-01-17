@@ -1,0 +1,4027 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/interactive_scene_changer_example/assets/Sphere.glb" type="PackedScene" id=1]
+[ext_resource path="res://addons/interactive_scene_changer_example/SceneChangeExample.gd" type="Script" id=2]
+
+[node name="SceneFirst" type="Spatial"]
+script = ExtResource( 2 )
+to_scene = "res://addons/interactive_scene_changer_example/SceneSecond.tscn"
+obj_path = NodePath("Sphere")
+obj_count = 1999
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Button" type="Button" parent="CanvasLayer"]
+anchor_left = 0.05
+anchor_top = 0.47
+anchor_right = 0.95
+anchor_bottom = 0.53
+text = "Go to second scene"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.40095 )
+
+[node name="Sphere" parent="." instance=ExtResource( 1 )]
+
+[node name="Duplicated" type="Spatial" parent="."]
+
+[node name="Sphere" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere2" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere3" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere4" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere5" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere6" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere7" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere8" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere9" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere10" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere11" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere12" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere13" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere14" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere15" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere16" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere17" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere18" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere19" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere20" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere21" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere22" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere23" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere24" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere25" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere26" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere27" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere28" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere29" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere30" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere31" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere32" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere33" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere34" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere35" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere36" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere37" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere38" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere39" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere40" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere41" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere42" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere43" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere44" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere45" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere46" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere47" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere48" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere49" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere50" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere51" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere52" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere53" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere54" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere55" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere56" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere57" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere58" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere59" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere60" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere61" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere62" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere63" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere64" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere65" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere66" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere67" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere68" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere69" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere70" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere71" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere72" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere73" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere74" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere75" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere76" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere77" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere78" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere79" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere80" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere81" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere82" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere83" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere84" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere85" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere86" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere87" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere88" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere89" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere90" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere91" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere92" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere93" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere94" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere95" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere96" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere97" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere98" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere99" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere100" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere101" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere102" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere103" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere104" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere105" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere106" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere107" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere108" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere109" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere110" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere111" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere112" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere113" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere114" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere115" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere116" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere117" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere118" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere119" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere120" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere121" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere122" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere123" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere124" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere125" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere126" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere127" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere128" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere129" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere130" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere131" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere132" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere133" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere134" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere135" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere136" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere137" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere138" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere139" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere140" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere141" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere142" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere143" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere144" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere145" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere146" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere147" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere148" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere149" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere150" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere151" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere152" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere153" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere154" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere155" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere156" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere157" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere158" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere159" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere160" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere161" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere162" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere163" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere164" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere165" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere166" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere167" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere168" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere169" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere170" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere171" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere172" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere173" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere174" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere175" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere176" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere177" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere178" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere179" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere180" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere181" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere182" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere183" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere184" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere185" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere186" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere187" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere188" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere189" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere190" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere191" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere192" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere193" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere194" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere195" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere196" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere197" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere198" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere199" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere200" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere201" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere202" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere203" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere204" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere205" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere206" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere207" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere208" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere209" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere210" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere211" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere212" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere213" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere214" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere215" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere216" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere217" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere218" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere219" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere220" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere221" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere222" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere223" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere224" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere225" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere226" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere227" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere228" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere229" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere230" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere231" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere232" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere233" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere234" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere235" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere236" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere237" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere238" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere239" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere240" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere241" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere242" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere243" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere244" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere245" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere246" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere247" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere248" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere249" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere250" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere251" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere252" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere253" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere254" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere255" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere256" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere257" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere258" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere259" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere260" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere261" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere262" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere263" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere264" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere265" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere266" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere267" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere268" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere269" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere270" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere271" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere272" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere273" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere274" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere275" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere276" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere277" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere278" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere279" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere280" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere281" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere282" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere283" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere284" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere285" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere286" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere287" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere288" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere289" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere290" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere291" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere292" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere293" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere294" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere295" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere296" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere297" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere298" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere299" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere300" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere301" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere302" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere303" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere304" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere305" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere306" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere307" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere308" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere309" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere310" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere311" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere312" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere313" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere314" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere315" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere316" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere317" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere318" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere319" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere320" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere321" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere322" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere323" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere324" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere325" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere326" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere327" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere328" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere329" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere330" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere331" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere332" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere333" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere334" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere335" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere336" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere337" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere338" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere339" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere340" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere341" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere342" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere343" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere344" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere345" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere346" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere347" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere348" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere349" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere350" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere351" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere352" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere353" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere354" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere355" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere356" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere357" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere358" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere359" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere360" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere361" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere362" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere363" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere364" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere365" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere366" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere367" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere368" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere369" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere370" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere371" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere372" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere373" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere374" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere375" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere376" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere377" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere378" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere379" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere380" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere381" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere382" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere383" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere384" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere385" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere386" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere387" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere388" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere389" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere390" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere391" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere392" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere393" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere394" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere395" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere396" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere397" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere398" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere399" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere400" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere401" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere402" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere403" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere404" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere405" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere406" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere407" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere408" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere409" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere410" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere411" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere412" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere413" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere414" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere415" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere416" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere417" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere418" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere419" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere420" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere421" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere422" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere423" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere424" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere425" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere426" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere427" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere428" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere429" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere430" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere431" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere432" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere433" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere434" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere435" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere436" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere437" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere438" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere439" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere440" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere441" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere442" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere443" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere444" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere445" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere446" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere447" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere448" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere449" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere450" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere451" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere452" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere453" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere454" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere455" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere456" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere457" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere458" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere459" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere460" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere461" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere462" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere463" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere464" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere465" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere466" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere467" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere468" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere469" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere470" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere471" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere472" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere473" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere474" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere475" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere476" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere477" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere478" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere479" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere480" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere481" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere482" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere483" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere484" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere485" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere486" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere487" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere488" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere489" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere490" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere491" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere492" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere493" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere494" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere495" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere496" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere497" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere498" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere499" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere500" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere501" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere502" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere503" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere504" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere505" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere506" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere507" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere508" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere509" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere510" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere511" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere512" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere513" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere514" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere515" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere516" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere517" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere518" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere519" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere520" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere521" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere522" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere523" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere524" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere525" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere526" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere527" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere528" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere529" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere530" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere531" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere532" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere533" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere534" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere535" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere536" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere537" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere538" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere539" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere540" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere541" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere542" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere543" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere544" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere545" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere546" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere547" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere548" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere549" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere550" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere551" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere552" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere553" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere554" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere555" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere556" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere557" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere558" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere559" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere560" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere561" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere562" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere563" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere564" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere565" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere566" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere567" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere568" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere569" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere570" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere571" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere572" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere573" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere574" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere575" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere576" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere577" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere578" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere579" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere580" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere581" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere582" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere583" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere584" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere585" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere586" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere587" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere588" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere589" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere590" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere591" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere592" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere593" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere594" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere595" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere596" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere597" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere598" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere599" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere600" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere601" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere602" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere603" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere604" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere605" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere606" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere607" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere608" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere609" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere610" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere611" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere612" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere613" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere614" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere615" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere616" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere617" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere618" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere619" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere620" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere621" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere622" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere623" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere624" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere625" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere626" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere627" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere628" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere629" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere630" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere631" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere632" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere633" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere634" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere635" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere636" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere637" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere638" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere639" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere640" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere641" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere642" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere643" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere644" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere645" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere646" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere647" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere648" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere649" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere650" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere651" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere652" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere653" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere654" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere655" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere656" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere657" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere658" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere659" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere660" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere661" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere662" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere663" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere664" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere665" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere666" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere667" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere668" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere669" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere670" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere671" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere672" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere673" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere674" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere675" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere676" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere677" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere678" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere679" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere680" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere681" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere682" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere683" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere684" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere685" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere686" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere687" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere688" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere689" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere690" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere691" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere692" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere693" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere694" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere695" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere696" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere697" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere698" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere699" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere700" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere701" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere702" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere703" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere704" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere705" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere706" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere707" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere708" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere709" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere710" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere711" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere712" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere713" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere714" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere715" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere716" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere717" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere718" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere719" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere720" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere721" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere722" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere723" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere724" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere725" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere726" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere727" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere728" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere729" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere730" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere731" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere732" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere733" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere734" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere735" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere736" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere737" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere738" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere739" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere740" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere741" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere742" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere743" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere744" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere745" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere746" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere747" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere748" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere749" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere750" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere751" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere752" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere753" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere754" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere755" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere756" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere757" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere758" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere759" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere760" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere761" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere762" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere763" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere764" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere765" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere766" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere767" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere768" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere769" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere770" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere771" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere772" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere773" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere774" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere775" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere776" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere777" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere778" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere779" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere780" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere781" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere782" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere783" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere784" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere785" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere786" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere787" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere788" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere789" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere790" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere791" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere792" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere793" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere794" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere795" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere796" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere797" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere798" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere799" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere800" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere801" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere802" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere803" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere804" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere805" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere806" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere807" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere808" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere809" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere810" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere811" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere812" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere813" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere814" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere815" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere816" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere817" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere818" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere819" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere820" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere821" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere822" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere823" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere824" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere825" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere826" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere827" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere828" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere829" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere830" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere831" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere832" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere833" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere834" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere835" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere836" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere837" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere838" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere839" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere840" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere841" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere842" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere843" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere844" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere845" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere846" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere847" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere848" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere849" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere850" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere851" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere852" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere853" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere854" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere855" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere856" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere857" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere858" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere859" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere860" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere861" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere862" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere863" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere864" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere865" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere866" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere867" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere868" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere869" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere870" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere871" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere872" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere873" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere874" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere875" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere876" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere877" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere878" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere879" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere880" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere881" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere882" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere883" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere884" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere885" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere886" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere887" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere888" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere889" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere890" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere891" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere892" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere893" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere894" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere895" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere896" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere897" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere898" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere899" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere900" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere901" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere902" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere903" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere904" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere905" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere906" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere907" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere908" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere909" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere910" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere911" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere912" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere913" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere914" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere915" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere916" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere917" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere918" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere919" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere920" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere921" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere922" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere923" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere924" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere925" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere926" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere927" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere928" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere929" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere930" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere931" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere932" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere933" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere934" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere935" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere936" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere937" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere938" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere939" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere940" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere941" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere942" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere943" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere944" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere945" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere946" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere947" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere948" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere949" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere950" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere951" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere952" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere953" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere954" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere955" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere956" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere957" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere958" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere959" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere960" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere961" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere962" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere963" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere964" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere965" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere966" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere967" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere968" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere969" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere970" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere971" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere972" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere973" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere974" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere975" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere976" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere977" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere978" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere979" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere980" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere981" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere982" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere983" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere984" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere985" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere986" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere987" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere988" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere989" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere990" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere991" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere992" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere993" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere994" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere995" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere996" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere997" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere998" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere999" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1000" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1001" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1002" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1003" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1004" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1005" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1006" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1007" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1008" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1009" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1010" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1011" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1012" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1013" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1014" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1015" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1016" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1017" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1018" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1019" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1020" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1021" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1022" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1023" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1024" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1025" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1026" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1027" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1028" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1029" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1030" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1031" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1032" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1033" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1034" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1035" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1036" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1037" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1038" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1039" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1040" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1041" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1042" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1043" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1044" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1045" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1046" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1047" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1048" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1049" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1050" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1051" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1052" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1053" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1054" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1055" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1056" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1057" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1058" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1059" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1060" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1061" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1062" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1063" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1064" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1065" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1066" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1067" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1068" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1069" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1070" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1071" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1072" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1073" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1074" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1075" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1076" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1077" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1078" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1079" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1080" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1081" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1082" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1083" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1084" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1085" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1086" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1087" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1088" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1089" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1090" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1091" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1092" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1093" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1094" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1095" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1096" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1097" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1098" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1099" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1100" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1101" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1102" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1103" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1104" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1105" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1106" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1107" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1108" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1109" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1110" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1111" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1112" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1113" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1114" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1115" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1116" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1117" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1118" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1119" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1120" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1121" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1122" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1123" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1124" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1125" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1126" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1127" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1128" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1129" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1130" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1131" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1132" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1133" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1134" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1135" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1136" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1137" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1138" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1139" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1140" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1141" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1142" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1143" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1144" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1145" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1146" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1147" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1148" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1149" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1150" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1151" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1152" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1153" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1154" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1155" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1156" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1157" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1158" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1159" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1160" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1161" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1162" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1163" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1164" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1165" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1166" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1167" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1168" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1169" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1170" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1171" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1172" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1173" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1174" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1175" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1176" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1177" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1178" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1179" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1180" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1181" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1182" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1183" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1184" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1185" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1186" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1187" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1188" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1189" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1190" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1191" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1192" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1193" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1194" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1195" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1196" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1197" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1198" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1199" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1200" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1201" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1202" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1203" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1204" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1205" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1206" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1207" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1208" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1209" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1210" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1211" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1212" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1213" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1214" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1215" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1216" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1217" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1218" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1219" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1220" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1221" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1222" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1223" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1224" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1225" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1226" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1227" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1228" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1229" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1230" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1231" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1232" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1233" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1234" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1235" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1236" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1237" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1238" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1239" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1240" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1241" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1242" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1243" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1244" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1245" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1246" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1247" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1248" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1249" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1250" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1251" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1252" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1253" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1254" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1255" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1256" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1257" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1258" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1259" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1260" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1261" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1262" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1263" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1264" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1265" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1266" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1267" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1268" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1269" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1270" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1271" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1272" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1273" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1274" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1275" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1276" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1277" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1278" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1279" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1280" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1281" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1282" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1283" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1284" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1285" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1286" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1287" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1288" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1289" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1290" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1291" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1292" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1293" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1294" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1295" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1296" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1297" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1298" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1299" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1300" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1301" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1302" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1303" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1304" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1305" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1306" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1307" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1308" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1309" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1310" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1311" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1312" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1313" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1314" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1315" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1316" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1317" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1318" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1319" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1320" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1321" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1322" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1323" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1324" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1325" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1326" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1327" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1328" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1329" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1330" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1331" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1332" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1333" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1334" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1335" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1336" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1337" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1338" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1339" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1340" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1341" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1342" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1343" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1344" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1345" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1346" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1347" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1348" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1349" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1350" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1351" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1352" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1353" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1354" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1355" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1356" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1357" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1358" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1359" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1360" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1361" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1362" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1363" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1364" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1365" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1366" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1367" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1368" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1369" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1370" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1371" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1372" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1373" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1374" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1375" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1376" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1377" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1378" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1379" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1380" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1381" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1382" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1383" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1384" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1385" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1386" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1387" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1388" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1389" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1390" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1391" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1392" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1393" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1394" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1395" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1396" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1397" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1398" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1399" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1400" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1401" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1402" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1403" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1404" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1405" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1406" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1407" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1408" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1409" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1410" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1411" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1412" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1413" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1414" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1415" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1416" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1417" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1418" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1419" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1420" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1421" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1422" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1423" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1424" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1425" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1426" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1427" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1428" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1429" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1430" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1431" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1432" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1433" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1434" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1435" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1436" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1437" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1438" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1439" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1440" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1441" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1442" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1443" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1444" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1445" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1446" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1447" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1448" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1449" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1450" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1451" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1452" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1453" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1454" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1455" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1456" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1457" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1458" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1459" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1460" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1461" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1462" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1463" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1464" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1465" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1466" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1467" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1468" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1469" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1470" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1471" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1472" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1473" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1474" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1475" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1476" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1477" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1478" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1479" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1480" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1481" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1482" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1483" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1484" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1485" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1486" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1487" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1488" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1489" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1490" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1491" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1492" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1493" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1494" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1495" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1496" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1497" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1498" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1499" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1500" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1501" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1502" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1503" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1504" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1505" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1506" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1507" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1508" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1509" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1510" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1511" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1512" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1513" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1514" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1515" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1516" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1517" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1518" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1519" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1520" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1521" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1522" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1523" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1524" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1525" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1526" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1527" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1528" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1529" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1530" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1531" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1532" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1533" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1534" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1535" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1536" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1537" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1538" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1539" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1540" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1541" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1542" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1543" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1544" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1545" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1546" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1547" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1548" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1549" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1550" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1551" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1552" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1553" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1554" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1555" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1556" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1557" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1558" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1559" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1560" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1561" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1562" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1563" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1564" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1565" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1566" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1567" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1568" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1569" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1570" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1571" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1572" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1573" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1574" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1575" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1576" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1577" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1578" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1579" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1580" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1581" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1582" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1583" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1584" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1585" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1586" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1587" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1588" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1589" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1590" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1591" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1592" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1593" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1594" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1595" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1596" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1597" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1598" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1599" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1600" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1601" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1602" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1603" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1604" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1605" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1606" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1607" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1608" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1609" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1610" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1611" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1612" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1613" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1614" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1615" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1616" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1617" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1618" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1619" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1620" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1621" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1622" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1623" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1624" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1625" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1626" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1627" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1628" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1629" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1630" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1631" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1632" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1633" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1634" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1635" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1636" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1637" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1638" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1639" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1640" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1641" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1642" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1643" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1644" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1645" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1646" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1647" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1648" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1649" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1650" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1651" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1652" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1653" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1654" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1655" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1656" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1657" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1658" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1659" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1660" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1661" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1662" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1663" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1664" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1665" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1666" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1667" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1668" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1669" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1670" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1671" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1672" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1673" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1674" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1675" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1676" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1677" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1678" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1679" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1680" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1681" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1682" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1683" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1684" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1685" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1686" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1687" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1688" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1689" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1690" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1691" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1692" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1693" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1694" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1695" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1696" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1697" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1698" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1699" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1700" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1701" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1702" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1703" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1704" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1705" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1706" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1707" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1708" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1709" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1710" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1711" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1712" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1713" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1714" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1715" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1716" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1717" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1718" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1719" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1720" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1721" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1722" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1723" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1724" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1725" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1726" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1727" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1728" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1729" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1730" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1731" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1732" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1733" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1734" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1735" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1736" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1737" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1738" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1739" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1740" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1741" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1742" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1743" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1744" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1745" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1746" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1747" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1748" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1749" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1750" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1751" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1752" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1753" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1754" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1755" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1756" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1757" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1758" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1759" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1760" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1761" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1762" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1763" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1764" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1765" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1766" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1767" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1768" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1769" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1770" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1771" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1772" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1773" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1774" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1775" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1776" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1777" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1778" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1779" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1780" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1781" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1782" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1783" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1784" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1785" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1786" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1787" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1788" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1789" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1790" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1791" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1792" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1793" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1794" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1795" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1796" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1797" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1798" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1799" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1800" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1801" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1802" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1803" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1804" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1805" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1806" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1807" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1808" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1809" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1810" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1811" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1812" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1813" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1814" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1815" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1816" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1817" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1818" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1819" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1820" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1821" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1822" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1823" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1824" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1825" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1826" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1827" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1828" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1829" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1830" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1831" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1832" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1833" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1834" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1835" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1836" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1837" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1838" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1839" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1840" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1841" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1842" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1843" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1844" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1845" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1846" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1847" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1848" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1849" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1850" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1851" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1852" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1853" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1854" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1855" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1856" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1857" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1858" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1859" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1860" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1861" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1862" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1863" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1864" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1865" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1866" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1867" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1868" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1869" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1870" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1871" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1872" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1873" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1874" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1875" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1876" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1877" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1878" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1879" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1880" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1881" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1882" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1883" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1884" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1885" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1886" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1887" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1888" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1889" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1890" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1891" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1892" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1893" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1894" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1895" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1896" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1897" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1898" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1899" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1900" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1901" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1902" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1903" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1904" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1905" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1906" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1907" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1908" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1909" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1910" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1911" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1912" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1913" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1914" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1915" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1916" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1917" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1918" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1919" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1920" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1921" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1922" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1923" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1924" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1925" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1926" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1927" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1928" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1929" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1930" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1931" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1932" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1933" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1934" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1935" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1936" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1937" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1938" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1939" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1940" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1941" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1942" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1943" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1944" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1945" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1946" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1947" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1948" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1949" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1950" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1951" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1952" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1953" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1954" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1955" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1956" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1957" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1958" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1959" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1960" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1961" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1962" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1963" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1964" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1965" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1966" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1967" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1968" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1969" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1970" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1971" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1972" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1973" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1974" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1975" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1976" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1977" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1978" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1979" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1980" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1981" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1982" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1983" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1984" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1985" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1986" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1987" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1988" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1989" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1990" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1991" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1992" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1993" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1994" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1995" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1996" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1997" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1998" parent="Duplicated" instance=ExtResource( 1 )]
+
+[node name="Sphere1999" parent="Duplicated" instance=ExtResource( 1 )]

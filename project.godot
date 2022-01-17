@@ -1,0 +1,20 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Interactive Scene Changer"
+run/main_scene="res://addons/interactive_scene_changer_example/SceneSero.tscn"
+config/icon="res://icon.png"
+config/features=PackedStringArray("4.0", "Vulkan Clustered")
+
+[autoload]
+
+InteractiveSceneChanger="*res://addons/interactive_scene_changer/InteractiveSceneChanger.gd"
