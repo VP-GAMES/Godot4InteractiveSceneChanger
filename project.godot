@@ -18,3 +18,7 @@ config/features=PackedStringArray("4.0", "Vulkan Clustered")
 [autoload]
 
 InteractiveSceneChanger="*res://addons/interactive_scene_changer/InteractiveSceneChanger.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/a/plugin.cfg", "res://addons/interactive_scene_changer/plugin.cfg")
