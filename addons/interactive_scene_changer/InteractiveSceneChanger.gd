@@ -41,7 +41,7 @@ func _process(_delta: float):
 			_update_progress()
 		3: # THREAD_LOAD_LOADED
 			_load_scene_resource = ResourceLoader.load_threaded_get(_scene_path)
-			emit_signal("progress_changed", 100.00)
+			emit_signal("progress_changed", 1.00)
 			emit_signal("load_done")
 			if change_scene_immediately:
 				change_scene()

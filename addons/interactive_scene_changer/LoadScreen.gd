@@ -35,7 +35,7 @@ func _on_timeout() -> void:
 		_text_index = 0
 
 func _on_progress_changed(progress) -> void:
-	_progress_bar.value = progress
+	_progress_bar.value = progress * 100.0
 
 func _on_load_done() -> void:
 	_label.hide()

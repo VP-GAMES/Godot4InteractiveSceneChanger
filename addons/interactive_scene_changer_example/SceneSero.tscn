@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://addons/interactive_scene_changer_example/SceneChangeExample.gd" id="2"]
 
 [node name="SceneFirst" type="Node3D"]
-script = ExtResource( "2" )
+script = ExtResource("2")
 to_scene = "res://addons/interactive_scene_changer_example/SceneFirst.tscn"
 obj_path = NodePath("")
 
@@ -15,9 +15,6 @@ anchor_top = 0.47
 anchor_right = 0.95
 anchor_bottom = 0.53
 text = "Go to first scene"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Camera" type="Camera3D" parent="."]
 

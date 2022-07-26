@@ -12,8 +12,8 @@ config_version=5
 
 config/name="Interactive Scene Changer"
 run/main_scene="res://addons/interactive_scene_changer_example/SceneSero.tscn"
-config/icon="res://icon.png"
 config/features=PackedStringArray("4.0", "Vulkan Clustered")
+config/icon="res://icon.png"
 
 [autoload]
 
@@ -21,4 +21,8 @@ InteractiveSceneChanger="*res://addons/interactive_scene_changer/InteractiveScen
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/a/plugin.cfg", "res://addons/interactive_scene_changer/plugin.cfg")
+enabled=PackedStringArray("res://addons/interactive_scene_changer/plugin.cfg")
+
+[filesystem]
+
+import/blender/enabled=false
