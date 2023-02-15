@@ -7,7 +7,6 @@ extends Node3D
 @export var obj_count: int = 0 # (int, 0, 100000)
 
 @onready var _button: Button = $CanvasLayer/Button
-@onready var _duplicated: Node3D = $Duplicated
 
 func _ready() -> void:
 	assert(_button.connect("pressed", _on_button_pressed) == OK)

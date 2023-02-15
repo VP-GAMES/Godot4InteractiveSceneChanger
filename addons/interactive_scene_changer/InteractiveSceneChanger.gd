@@ -14,17 +14,13 @@ var _progress: Array = []
 var _start_time: int
 
 var change_scene_immediately = true
-func set_change_scene_immediately(value):
-	change_scene_immediately = value
-func get_change_scene_immediately():
-	return change_scene_immediately
 
 func load_scene(scene_path: String, load_screen_path: String = "") -> void:
 	_scene_path = scene_path
 	if load_screen_path != null && load_screen_path.length() > 0 &&  load_screen_path != _load_screen_path:
 		_load_screen_path = load_screen_path
 		_load_screen = load(_load_screen_path)
-	assert(get_tree().change_scene_to(_load_screen) == OK)
+	assert(get_tree().change_scene_to_packed(_load_screen) == OK)
 
 func start_load() -> void:
 	var state =  ResourceLoader.load_threaded_request(_scene_path, "", true)
@@ -41,13 +37,13 @@ func _process(_delta: float):
 			_update_progress()
 		3: # THREAD_LOAD_LOADED
 			_load_scene_resource = ResourceLoader.load_threaded_get(_scene_path)
-			emit_signal("progress_changed", 1.00)
+			emit_signal("progress_changed", 1.0)
 			emit_signal("load_done")
 			if change_scene_immediately:
 				change_scene()
 
 func change_scene() -> void:
-	assert(get_tree().change_scene_to(_load_scene_resource) == OK)
+	assert(get_tree().change_scene_to_packed(_load_scene_resource) == OK)
 
 func _update_progress():
 	emit_signal("progress_changed", _progress[0])

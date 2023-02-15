@@ -5,27 +5,19 @@
 [node name="SceneChanger" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-script = ExtResource( "1" )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+script = ExtResource("1")
+with_load_button = false
 
 [node name="ColorRect" type="ColorRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
 color = Color(0, 0, 0, 1)
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="ProgressBar" type="ProgressBar" parent="ColorRect"]
 anchor_left = 0.05
 anchor_top = 0.47
 anchor_right = 0.95
 anchor_bottom = 0.53
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Label" type="Label" parent="ColorRect"]
 anchor_left = 0.05
@@ -33,9 +25,6 @@ anchor_top = 0.53
 anchor_right = 0.95
 anchor_bottom = 0.59
 text = "Loadin . . ."
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Button" type="Button" parent="ColorRect"]
 visible = false
