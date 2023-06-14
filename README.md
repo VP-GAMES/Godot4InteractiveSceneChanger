@@ -3,7 +3,7 @@ Simple interactive scene changer. Implemented as singleton/autoload class. This 
 
 Based on this solution: https://docs.godotengine.org/en/stable/tutorials/io/background_loading.html
 
-Version 0.0.9 (godot 4 rc 2)
+Version 0.1.0 (godot 4.1+)
 
 The following screenshots show the working areas of the plugin:
 

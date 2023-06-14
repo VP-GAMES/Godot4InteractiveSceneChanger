@@ -3,6 +3,7 @@
 extends Node
 
 @export var with_load_button: bool = true
+@export var use_sub_threads: bool = true
 
 @onready var _progress_bar: ProgressBar = $ColorRect/ProgressBar
 @onready var _button: Button = $ColorRect/Button
@@ -24,8 +25,8 @@ func _ready() -> void:
 	_button.hide()
 	assert(_button.connect("pressed", _on_button_pressed) == OK)
 	assert(InteractiveSceneChanger.connect("load_done", _on_load_done) == OK)
-	if with_load_button:
-		InteractiveSceneChanger.change_scene_immediately = false
+	InteractiveSceneChanger.change_scene_immediately = not with_load_button
+	InteractiveSceneChanger.use_sub_threads = use_sub_threads
 	InteractiveSceneChanger.start_load()
 
 func _on_timeout() -> void:

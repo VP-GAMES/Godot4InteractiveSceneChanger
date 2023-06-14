@@ -14,6 +14,7 @@ var _progress: Array = []
 var _start_time: int
 
 var change_scene_immediately = true
+var use_sub_threads: bool = true
 
 func load_scene(scene_path: String, load_screen_path: String = "") -> void:
 	_scene_path = scene_path
@@ -23,7 +24,7 @@ func load_scene(scene_path: String, load_screen_path: String = "") -> void:
 	assert(get_tree().change_scene_to_packed(_load_screen) == OK)
 
 func start_load() -> void:
-	var state =  ResourceLoader.load_threaded_request(_scene_path, "", true)
+	var state =  ResourceLoader.load_threaded_request(_scene_path, "", use_sub_threads)
 	if state == OK:
 		set_process(true)
 
